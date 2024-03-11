@@ -12,3 +12,9 @@ spring:
   cloud:
     function:
       definition: producer;processor;consumer
+#Metricas
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics
